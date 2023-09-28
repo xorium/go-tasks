@@ -2,7 +2,10 @@ package main
 
 import "fmt"
 
+// fanIn возвращает канал, который будет содержать все элементы из каналов channels (порядок между элементами
+// не важен)
 func fanIn(channels ...chan int) chan int {
+	return nil
 }
 
 func main() {
